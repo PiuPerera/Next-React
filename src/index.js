@@ -1,6 +1,6 @@
 import React from "react";
 import reactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Pizza from "./components/pizza";
+import PizzaList from "./components/pizzaList";
 
-reactDOM.render(<Pizza/>, document.getElementById("root"));
+reactDOM.render(<PizzaList/>, document.getElementById("root"));
